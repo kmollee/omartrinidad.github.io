@@ -19,8 +19,8 @@ ARTICLE_PERMALINK_STRUCTURE = '/%Y/%m/'
 # the main menu. Tags will not appear on the menu.
 DEFAULT_CATEGORY = 'Blog'
 
-AUTHOR = 'Your Name'
-SITENAME = 'omartrinidad.github.io'
+AUTHOR = 'omartrinidad'
+SITENAME = 'Locochao'
 SITEURL = 'http://omartrinidad.github.io'
 
 # I like to have ``Archives`` in the main menu.

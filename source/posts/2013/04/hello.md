@@ -1,5 +1,3 @@
-#Title
+title: Thesis work almost ready!
 
-##Subtitle
-
-Text
+tags: Matlab, hacker, mammograms
