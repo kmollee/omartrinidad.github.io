@@ -2,7 +2,7 @@
 
 # This can also be the absolute path to a theme that you downloaded
 # i.e. './themes/anothertheme/'
-THEME = 'notmyidea'
+THEME = 'water-iris-master'
 
 # The folder ``images`` should be copied into the folder ``static`` when
 # generating the output.
@@ -27,6 +27,10 @@ SITEURL = 'http://omartrinidad.github.io'
 MENUITEMS = (
     ('Archives', '{0}/archives.html'.format(SITEURL)),
 )
+
+#SOCIAL = (
+#    ('Archives', '{0}/archives.html'.format(SITEURL)),
+#)
 
 WITH_PAGINATION = True
 DEFAULT_PAGINATION = 10
