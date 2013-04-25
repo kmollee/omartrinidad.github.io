@@ -20,7 +20,7 @@ ARTICLE_PERMALINK_STRUCTURE = '/%Y/%m/'
 DEFAULT_CATEGORY = 'Blog'
 
 AUTHOR = 'omartrinidad'
-SITENAME = 'Locochao'
+SITENAME = 'Omar swap file'
 SITEURL = 'http://omartrinidad.github.io'
 
 # I like to have ``Archives`` in the main menu.
