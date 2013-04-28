@@ -29,9 +29,9 @@ MENUITEMS = (
     ('Archives', '{0}/archives.html'.format(SITEURL)),
 )
 
-#SOCIAL = (
-#    ('Archives', '{0}/archives.html'.format(SITEURL)),
-#)
+SOCIAL = (
+        ('Twitter', 'http://twitter.com/omar_trinidad'),
+)
 
 WITH_PAGINATION = True
 DEFAULT_PAGINATION = 10
