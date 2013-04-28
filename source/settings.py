@@ -2,7 +2,7 @@
 
 # This can also be the absolute path to a theme that you downloaded
 # i.e. './themes/anothertheme/'
-THEME = 'notmyidea'
+THEME = 'relapse'
 SITESUBTITLE = 'Testing the new blog'
 
 # The folder ``images`` should be copied into the folder ``static`` when
