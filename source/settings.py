@@ -40,5 +40,5 @@ REVERSE_ARCHIVE_ORDER = True
 # Uncomment what ever you want to use
 #GOOGLE_ANALYTICS = 'XX-XXXXXXX-XX'
 DISQUS_SITENAME = 'omarswapfile'
-#GITHUB_URL = 'http://github.com/username/username.github.com'
+GITHUB_URL = 'http://github.com/omartrinidad/omartrinidad.github.io'
 TWITTER_USERNAME = 'omar_trinidad'
