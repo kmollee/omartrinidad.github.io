@@ -50,11 +50,11 @@
         <p>In <a href="../../category/blog.html">Blog</a>. </p>
 <p>tags: <a href="../../tag/git.html">Git</a><a href="../../tag/branching.html">branching</a><a href="../../tag/merging.html">merging</a></p>
 </footer><!-- /.post-info -->      <p>Git supports <em>branching</em> which means that you can work on different versions of 
-your collection of files in parallel. That is, is possible create a branch and 
-make the changes in this branch without affecting the state of your files in 
+your collection of files in parallel. That is, it is possible create a branch 
+and make the changes in this branch without affecting the state of your files in 
 another branch. <em>The default branch is called master</em>.</p>
 <p><em>Branches in Git are local</em>. A branch created in a local repository, does not
-need to have a counterpart in the remote repository. </p>
+need to have a counterpart in the remote repository.</p>
 <p>To create a branch and switch to it at the same time, you can run the <code>git
 checkout</code> command with the <code>-b</code> switch. </p>
 <div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="n">newbranch</span>
@@ -73,6 +73,16 @@ checkout</code> command with the <code>-b</code> switch. </p>
 <span class="o">*</span> <span class="n">newbranch</span>
 <span class="n">master</span>
 </pre></div>
+
+
+<p><em>Warning:</em> Before you back to your master branch, note that if your working
+directory or <em>staging area</em> has uncommitted changes that conflict with the
+branch you are checking out, Git will not let you switch branches. It is best
+to have a clean working state when you switch branches. </p>
+<h1>Merge</h1>
+<p>This section explain what is a merge.</p>
+<h1>Delete branch</h1>
+<p>This section explain how to delete a branch.</p>
     </div><!-- /.entry-content -->
         <div class="comments">
       <h2>Comments !</h2>
