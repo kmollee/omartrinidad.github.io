@@ -26,13 +26,56 @@
                 <h1><a href="./">Omar swap file  <strong>Testing the new blog</strong></a></h1>
                 <nav><ul>
                                     <li><a href="http://omartrinidad.github.io/archives.html">Archives</a></li>
-                                                                                                </ul></nav>
+                                                                                                    <li ><a href="./category/blog.html">Blog</a></li>
+                                </ul></nav>
         </header><!-- /#banner -->
                 
-<section id="content" class="body">    
-<h2>Pages</h2>
-    </section>
-        <section id="extras" class="body">
+            
+
+                            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="./2013/04/git-branching-and-merging.html">Git branching and merging</a></h1> 
+                    <footer class="post-info">
+        <abbr class="published" title="2013-04-25T00:00:00">
+                Thu 25 April 2013
+        </abbr>
+
+                <address class="vcard author">
+                By <a class="url fn" href="./author/omartrinidad.html">omartrinidad</a>
+        </address>
+        <p>In <a href="./category/blog.html">Blog</a>. </p>
+<p>tags: <a href="./tag/git.html">Git</a><a href="./tag/branching.html">branching</a><a href="./tag/merging.html">merging</a></p>
+</footer><!-- /.post-info --><p>Git supports <em>branching</em> which means that you can work on different versions of 
+your collection of files in parallel. That is, is possible create a branch and 
+make the changes in this branch without affecting the state of your files in 
+another branch. <em>The default branch is called master</em>.</p>
+<p><em>Branches in Git are local</em>. A branch created in a local repository, does not
+need to have a counterpart in the remote repository. </p>
+<p>To create a branch and switch to it at the same time, you can run the <code>git
+checkout</code> command with the <code>-b</code> switch. </p>
+<div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="n">newbranch</span>
+</pre></div>
+
+
+<p>This is shorthand for:</p>
+<div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">branch</span> <span class="n">newbranch</span>
+<span class="err">$</span> <span class="n">git</span> <span class="n">checkout</span> <span class="n">new</span> <span class="n">branch</span>
+</pre></div>
+
+
+<p>We are now in the branch <code>newbranch</code>. Git moved the HEAD pointer to
+<code>newbranch</code>.</p>
+<div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">branch</span>
+<span class="o">*</span> <span class="n">newbranch</span>
+<span class="n">master</span>
+</pre></div><p>There are <a href="./2013/04/git-branching-and-merging.html#disqus_thread">comments</a>.</p>                </article>
+                                    <p class="paginator">
+        Page 1 / 1
+    </p>
+                            </aside><!-- /#featured -->
+                                                </ol><!-- /#posts-list -->
+                        </section><!-- /#content -->
+                    <section id="extras" class="body">
                                 <div class="social">
                         <h2>social</h2>
                         <ul>

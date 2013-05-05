@@ -49,9 +49,14 @@
         </address>
         <p>In <a href="../../category/blog.html">Blog</a>. </p>
 <p>tags: <a href="../../tag/git.html">Git</a><a href="../../tag/branching.html">branching</a><a href="../../tag/merging.html">merging</a></p>
-</footer><!-- /.post-info -->      <p>To create a branch and switch to it at the same time,
-you can run the <code>git checkout</code> command with
-the <code>-b</code> switch.</p>
+</footer><!-- /.post-info -->      <p>Git supports <em>branching</em> which means that you can work on different versions of 
+your collection of files in parallel. That is, is possible create a branch and 
+make the changes in this branch without affecting the state of your files in 
+another branch. <em>The default branch is called master</em>.</p>
+<p><em>Branches in Git are local</em>. A branch created in a local repository, does not
+need to have a counterpart in the remote repository. </p>
+<p>To create a branch and switch to it at the same time, you can run the <code>git
+checkout</code> command with the <code>-b</code> switch. </p>
 <div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">checkout</span> <span class="o">-</span><span class="n">b</span> <span class="n">newbranch</span>
 </pre></div>
 
@@ -59,6 +64,14 @@ the <code>-b</code> switch.</p>
 <p>This is shorthand for:</p>
 <div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">branch</span> <span class="n">newbranch</span>
 <span class="err">$</span> <span class="n">git</span> <span class="n">checkout</span> <span class="n">new</span> <span class="n">branch</span>
+</pre></div>
+
+
+<p>We are now in the branch <code>newbranch</code>. Git moved the HEAD pointer to
+<code>newbranch</code>.</p>
+<div class="codehilite"><pre><span class="err">$</span> <span class="n">git</span> <span class="n">branch</span>
+<span class="o">*</span> <span class="n">newbranch</span>
+<span class="n">master</span>
 </pre></div>
     </div><!-- /.entry-content -->
         <div class="comments">
