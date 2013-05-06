@@ -1,7 +1,11 @@
-title: Git branching and merging 
+title: Git branching
 date: 2013-04-25
 category: Blog
 tags: Git, branching, merging 
+status: draft
+
+Branching means you diverge from the main line of development and continue to do
+work.
 
 Git supports _branching_ which means that you can work on different versions of 
 your collection of files in parallel. That is, it is possible create a branch 
@@ -10,6 +14,12 @@ another branch. _The default branch is called master_.
 
 _Branches in Git are local_. A branch created in a local repository, does not
 need to have a counterpart in the remote repository.
+
+# Create a branch
+
+Suposse you are working on a project and you need to add a new functionality. 
+The proper way to do it is create a new branch with the name of the new 
+functionality.
 
 To create a branch and switch to it at the same time, you can run the <code>git
 checkout</code> command with the <code>-b</code> switch. 
@@ -37,7 +47,17 @@ to have a clean working state when you switch branches.
 
 This section explain what is a merge.
 
+## Conflicts
+
+If you changed _the same part of the same file_ differently in the two branches
+you are merging together, Git will not be able to merge them cleanly. 
+
 # Delete branch
 
-This section explain how to delete a branch.
+In order to delete a _local_ branch we execute the next command:
 
+    $ git branch -d newbranch
+
+In order to delete a _remote_ branch we execute the next command:
+
+    $ git push origin :remotebranch
