@@ -5,7 +5,9 @@ tags: Coursera, MOOC, Python
 status: draft
 
 # Context
+
 Three sexy skills of data geeks:
+
 * Statistics
     * Traditional analysis
 * Data munging
@@ -17,11 +19,14 @@ Three sexy skills of data geeks:
 
 # The course
 ## The dimension of tools versus abstractions
+
 A big event was in 2004 was when Jeff Dean and his colleagues published his
 paper on *MapReduce* at Google. Four years later, *Hadoop* is released.
 
 ## The dimension
+
 Three types of task:
+
 * Preparing to run a model
 * Running the model
 * Interpreting the results
@@ -30,3 +35,6 @@ Three types of task:
 
 eScience is the term associated with Astronomy, Oceanography and Biology. Data
 Science has been adopted more in business.
+
+# Aside on "Big Data"
+
