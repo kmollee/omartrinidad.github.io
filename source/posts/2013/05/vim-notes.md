@@ -7,3 +7,11 @@ status: draft
 I used Vim since 2011. But only since 2013 I started using Vim in the right way.
 When I write _in the right way_ I mean
 
+#Vim Text Objects.
+
+#Vim System Clipboard
+
+#mappings
+
+## <Leader> key
+
