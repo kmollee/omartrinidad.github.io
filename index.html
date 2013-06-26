@@ -45,7 +45,26 @@
         </address>
         <p>In <a href="./category/blog.html">Blog</a>. </p>
 <p>tags: <a href="./tag/gui-building.html">GUI building</a><a href="./tag/matlab.html">Matlab</a><a href="./tag/guide.html">GUIDE</a></p>
-</footer><!-- /.post-info --><p>The first lesson I've learned about GUI </p><p>There are <a href="./2013/04/gui-building-with-matlab.html#disqus_thread">comments</a>.</p>                </article>
+</footer><!-- /.post-info --><p>The first lesson I've learned about GUI development is: <em>create a mockup</em>.</p>
+<h1>Why avoid GUIDE (GUI development environment)</h1>
+<p>With GUIDE is possible design UIs graphically, however instead</p>
+<h1>Create GUI programatically</h1>
+<div class="codehilite"><pre><span class="kd">function</span> <span class="nx">varargout</span> <span class="o">=</span> <span class="nx">mygui</span><span class="p">(</span><span class="nx">varargin</span><span class="p">)</span>
+    <span class="o">%</span> <span class="nx">Brief</span> <span class="nx">description</span>
+    <span class="nx">sizeScreen</span> <span class="o">=</span> <span class="nx">get</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;ScreenSize&#39;</span><span class="p">)</span>
+    <span class="nx">hmf</span> <span class="o">=</span> <span class="nx">figure</span><span class="p">(</span><span class="s1">&#39;Position&#39;</span><span class="p">,</span> <span class="nx">sizeScreen</span><span class="p">,...</span>
+           <span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="s1">&#39;Mammogram GUI&#39;</span><span class="p">,...</span>
+           <span class="s1">&#39;NumberTitle&#39;</span><span class="p">,</span> <span class="s1">&#39;off&#39;</span><span class="p">,...</span>
+           <span class="s1">&#39;MenuBar&#39;</span><span class="p">,</span> <span class="s1">&#39;none&#39;</span><span class="p">);</span>
+
+    <span class="nx">eth</span> <span class="o">=</span> <span class="nx">uicontrol</span><span class="p">(</span><span class="nx">hmf</span><span class="p">,</span> <span class="s1">&#39;Style&#39;</span><span class="p">,</span><span class="s1">&#39;edit&#39;</span><span class="p">,...</span>
+                    <span class="s1">&#39;String&#39;</span><span class="p">,</span><span class="s1">&#39;Enter your name here.&#39;</span><span class="p">,...</span>
+                    <span class="s1">&#39;Position&#39;</span><span class="p">,</span><span class="cp">[</span><span class="mi">130</span> <span class="mi">150</span> <span class="mi">130</span> <span class="mi">120</span><span class="cp">]</span><span class="p">);</span>
+<span class="nx">end</span>
+</pre></div>
+
+
+<p>In the code above we have create a basic window.</p><p>There are <a href="./2013/04/gui-building-with-matlab.html#disqus_thread">comments</a>.</p>                </article>
                                     <p class="paginator">
         Page 1 / 1
     </p>
