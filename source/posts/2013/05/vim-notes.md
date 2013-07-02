@@ -15,3 +15,22 @@ When I write _in the right way_ I mean
 
 ## <Leader> key
 
+-> I and A
+-> zz, zt, zb
+-> Ctrl N
+-> Ctrl B and Ctrl F
+-> ctags ?
+-> Ctrl E and Ctrl Y
+-> Ctrl A and Ctrl X
+-> vim match
+-> gq} and y}
+-> Vim visual mode
+-> (, ), { and }
+-> ''
+-> c$, c4w. r [normal mode]
+-> ca" or ci" -> ci) or ca)
+-> ya< or ya> or yi< or yi>
+
+OpenOffice
+:set tw=0 wrap linebreak
+

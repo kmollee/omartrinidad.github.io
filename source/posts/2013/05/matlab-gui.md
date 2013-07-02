@@ -7,7 +7,8 @@ The first lesson I've learned about GUI development is: _create a mockup_.
 
 # Why avoid GUIDE (GUI development environment)
 
-With GUIDE is possible design UIs graphically, however instead
+With GUIDE is possible design UIs graphically, however instead of making it
+easier complicates it.
 
 # Create GUI programatically
 
@@ -18,10 +19,10 @@ With GUIDE is possible design UIs graphically, however instead
                'Name', 'Mammogram GUI',...
                'NumberTitle', 'off',...
                'MenuBar', 'none');
-
-        eth = uicontrol(hmf, 'Style','edit',...
-                        'String','Enter your name here.',...
-                        'Position',[130 150 130 120]);
     end
 
-In the code above we have create a basic window.
+In the code above we have create a _very_ basic window.
+
+# Adding controls with <code>uicontrol</code>
+
+# Adding menues with <code>uimenus</code>
