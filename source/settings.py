@@ -42,3 +42,7 @@ REVERSE_ARCHIVE_ORDER = True
 DISQUS_SITENAME = 'omarswapfile'
 GITHUB_URL = 'http://github.com/omartrinidad/omartrinidad.github.io'
 TWITTER_USERNAME = 'omar_trinidad'
+
+# Avoid warnings
+article_save_as = '{date:%Y}/{date:%m}/{slug}.html'
+
