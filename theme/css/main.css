@@ -1,25 +1,23 @@
 /*
-	Name: Smashing HTML5
-	Date: July 2009
-	Description: Sample layout for HTML5 and CSS3 goodness.
-	Version: 1.0
-	Author: Enrique Ramírez
-	Autor URI: http://enrique-ramirez.com
+	Name: DarkGeekTheme (based on Smashing HTML5)
+	Date: July 2013
+	Author: Omar Trinidad Gutiérrez Méndez
+    Web: omartrinidad.github.io
 */
 
 /* Imports */
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&subset=latin);
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC);
 
 /***** Global *****/
 /* Body */
 body {
-    background: #F5F4EF;
-    color: #000305;
+    background: #46483E; /* #46483E */
+    color: #D2D8BA; /* #000305; */
     font-size: 87.5%; /* Base font size: 14px */
-    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     line-height: 1.429;
     margin: 0;
     padding: 0;
@@ -38,7 +36,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	line-height: 1.1;
 	margin-bottom: .8em;
-    font-family: 'Yanone Kaffeesatz', arial, serif;
+    font-family: 'Carrois Gothic SC', sans-serif;
+    font-size: 20px;
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
@@ -82,7 +81,6 @@ ol {
 }
 
 .post-info {
-    float:right;
     margin:10px;
     padding:5px;
 }
@@ -97,7 +95,12 @@ dl {margin: 0 0 1.5em 0;}
 dt {font-weight: bold;}
 dd {margin-left: 1.5em;}
 
-pre{background-color:  rgb(238, 238, 238); padding: 10px; margin: 10px; overflow: auto;}
+pre{
+    background-color:  rgb(238, 238, 238); 
+    padding: 10px; /* inner space */
+    margin: 0 20% 10px 20%; /* outer space */
+    color: #000;
+} 
 
 /* Quotes */
 blockquote {
@@ -149,44 +152,52 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 *****************/
 #banner {
 	margin: 0 auto;
-	padding: 2.5em 0 0 0;
+	padding: 5em 0 0 0;
+    width: 100%;
 }
 
 	/* Banner */
 	#banner h1 {font-size: 3.571em; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #000305;
+		color: #B5E853;
 		display: block;
 		font-weight: bold;
 		margin: 0 0 .6em .2em;
 		text-decoration: none;
+		text-shadow: rgba(104, 182, 255, 0.498039) 0 0 5px;
 	}
 	#banner h1 a:hover, #banner h1 a:active {
 		background: none;
-		color: #C74350;
-		text-shadow: none;
+		color: #63C0F5;
+		text-shadow: rgba(104, 182, 255, 0.498039) 0 0 5px;
 	}
 	
 	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
 	
 	/* Main Nav */
 	#banner nav {
-		background: #000305;
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
 		margin: 0 auto 2em auto;
 		padding: 0;
 		text-align: center;
-		width: 800px;
-		
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
+		width: 30%;
+        float: right; 
 	}
 	
-	#banner nav ul {list-style: none; margin: 0 auto; width: 800px;}
-	#banner nav li {float: left; display: inline; margin: 0;}
+	#banner nav ul {
+        list-style: none; 
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    } 
+
+	#banner nav li {
+        float: right; 
+        display: inline-block; 
+        position: relative;
+    }
 	
 	#banner nav a:link, #banner nav a:visited {
 		color: #fff;
@@ -201,30 +212,16 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		color: #fff;
 		text-shadow: none !important;
 	}
-	
-	#banner nav li:first-child a {
-		border-top-left-radius: 5px;
-		-moz-border-radius-topleft: 5px;
-		-webkit-border-top-left-radius: 5px;
-		
-		border-bottom-left-radius: 5px;
-		-moz-border-radius-bottomleft: 5px;
-		-webkit-border-bottom-left-radius: 5px;
-	}
 
 /*
 	Featured
 *****************/
 #featured {
-	background: #fff;
+	background: #33342D;
 	margin-bottom: 2em;
 	overflow: hidden;
-	padding: 20px;
-	width: 760px;
-	
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	padding: 20px; /* inner space */
+	width: 100%;
 }
 
 #featured figure {
@@ -355,8 +352,12 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
-.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
-.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
+.entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;} 
+.entry-title a:link, .entry-title a:visited {
+    text-decoration: none; 
+    color:#D2D8BA;
+    text-align: center;
+}
 .entry-title a:visited {background-color: #fff;}
 
 .hentry .post-info * {font-style: normal;}
