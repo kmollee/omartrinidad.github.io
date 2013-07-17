@@ -2,8 +2,8 @@
 
 # This can also be the absolute path to a theme that you downloaded
 # i.e. './themes/anothertheme/'
-THEME = 'notmyidea'
-SITESUBTITLE = 'Testing the new blog'
+THEME = 'darktheme'
+SITESUBTITLE = 'Dreaming with a different and new Mexico'
 
 # The folder ``images`` should be copied into the folder ``static`` when
 # generating the output.
