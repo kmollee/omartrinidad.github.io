@@ -1,8 +1,9 @@
 title: Outliers
-date: 2013-04-25
+date: 2013-07-18
 category: Blog
 tags: books, Outliers, Malcolm Gladwell  
-status: draft
+
+Outliers is the last book I've read. 
 
 # Chapter one
 

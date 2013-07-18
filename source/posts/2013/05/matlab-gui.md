@@ -8,7 +8,7 @@ The first lesson I've learned about GUI development is: _create a mockup_.
 # Why avoid GUIDE (GUI development environment)
 
 With GUIDE is possible design UIs graphically, however instead of making it
-easier complicates it.
+easier complicates it. In order to have a better control in the 
 
 # Create GUI programatically
 
