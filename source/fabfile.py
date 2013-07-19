@@ -1,13 +1,10 @@
 """Fabric tasks for publishing a pelican blog to github."""
 from __future__ import with_statement
-
 from fabric.api import lcd, local, settings
-
 
 def pelican():
     """Re-generates the output."""
     local('pelican . -o ../ -s settings.py')
-
 
 def push(commit_message):
     """Commits the current changes."""
