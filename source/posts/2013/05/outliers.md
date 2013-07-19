@@ -3,22 +3,21 @@ date: 2013-07-18
 category: Blog
 tags: books, Outliers, Malcolm Gladwell  
 
-Outliers is the last book I've read. 
+As a kid I liked to play soccer. I was never the best player, but I
+neither was the worst one. I remember a 
 
 # Chapter one
 
 It makes a difference where and when we grew up.
 
-Biologists often talk about the "ecology" of an organism:
-the tallest oak in the forest is the tallest not just because
-it grew from the hardiest acorn; it is the tallest also because
-no other trees blocked its sunlight, the soil around it was 
-deep and rich, no rabbit chewed through its bark as a sapling,
-and no lumberjack cut it down before it matured. We all know
-that successful people come from hardy seeds. But do we know
-enough about the sunlight that warmed them, the soil in which
-they put down the roots, and the rabbits and lumberjacks 
-they were lucky enough to avoid?
+Biologists often talk about the "ecology" of an organism: the tallest oak in
+the forest is the tallest not just because it grew from the hardiest acorn; it
+is the tallest also because no other trees blocked its sunlight, the soil
+around it was deep and rich, no rabbit chewed through its bark as a sapling,
+and no lumberjack cut it down before it matured. We all know that successful
+people come from hardy seeds. But do we know enough about the sunlight that
+warmed them, the soil in which they put down the roots, and the rabbits and
+lumberjacks they were lucky enough to avoid?
 
 # Hockey players in Canada
 

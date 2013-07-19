@@ -31,6 +31,7 @@ MENUITEMS = (
 SOCIAL = (
         ('Twitter', 'http://twitter.com/omar_trinidad'),
         ('Facebook', 'http://facebook.com/pilu.omar'),
+        ('LinkedIn', 'mx.linkedin.com/in/omartrinidad'),
 )
 
 WITH_PAGINATION = True
