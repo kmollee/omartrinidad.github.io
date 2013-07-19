@@ -1,7 +1,6 @@
 """Settings for pelican."""
 
 # This can also be the absolute path to a theme that you downloaded
-# i.e. './themes/anothertheme/'
 THEME = 'darktheme'
 SITESUBTITLE = 'Dreaming with a different and new Mexico'
 
@@ -31,6 +30,7 @@ MENUITEMS = (
 
 SOCIAL = (
         ('Twitter', 'http://twitter.com/omar_trinidad'),
+        ('Facebook', 'http://facebook.com/pilu.omar'),
 )
 
 WITH_PAGINATION = True
