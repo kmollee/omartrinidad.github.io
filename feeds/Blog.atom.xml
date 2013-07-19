@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Omar swap file</title><link href="http://omartrinidad.github.io/" rel="alternate"></link><link href="http://omartrinidad.github.io/feeds/Blog.atom.xml" rel="self"></link><id>http://omartrinidad.github.io/</id><updated>2013-04-25T00:00:00+00:00</updated><entry><title>GUI building with Matlab</title><link href="http://omartrinidad.github.io/2013/04/gui-building-with-matlab.html" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:2013/04/gui-building-with-matlab.html</id><summary type="html">&lt;p&gt;The first lesson I've learned about GUI development is: &lt;em&gt;create a mockup&lt;/em&gt;.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Omar swap file</title><link href="http://omartrinidad.github.io/" rel="alternate"></link><link href="http://omartrinidad.github.io/feeds/Blog.atom.xml" rel="self"></link><id>http://omartrinidad.github.io/</id><updated>2013-07-18T00:00:00+00:00</updated><entry><title>Outliers</title><link href="http://omartrinidad.github.io/2013/07/outliers.html" rel="alternate"></link><updated>2013-07-18T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-07-18:2013/07/outliers.html</id><summary type="html">&lt;p&gt;Outliers is the last book I've read. &lt;/p&gt;
+&lt;h1&gt;Chapter one&lt;/h1&gt;
+&lt;p&gt;It makes a difference where and when we grew up.&lt;/p&gt;
+&lt;p&gt;Biologists often talk about the "ecology" of an organism:
+the tallest oak in the forest is the tallest not just because
+it grew from the hardiest acorn; it is the tallest also because
+no other trees blocked its sunlight, the soil around it was 
+deep and rich, no rabbit chewed through its bark as a sapling,
+and no lumberjack cut it down before it matured. We all know
+that successful people come from hardy seeds. But do we know
+enough about the sunlight that warmed them, the soil in which
+they put down the roots, and the rabbits and lumberjacks 
+they were lucky enough to avoid?&lt;/p&gt;
+&lt;h1&gt;Hockey players in Canada&lt;/h1&gt;
+&lt;p&gt;In Canada the most of the successful hockey players born
+in: January, February, and March.&lt;/p&gt;
+&lt;p&gt;The explanation for this is quite simple. It has nothing to
+do with astrology, nor is there anything magical about the 
+first three months of the year. It's simply that in Canada
+the eligibility cutoff for age-class hockey is January 1. A
+boy who turns ten on January 2, then, could be playing alongside
+someone who doesn't turn ten until the end of the year.&lt;/p&gt;
+&lt;h1&gt;The three lessons of Joe Flom&lt;/h1&gt;
+&lt;p&gt;Those three things -autonomy, complexity, and a connection between effort and
+reward- are, most people agree, the three qualities that work has to have if it
+is to be satisfying. It is not how much money we make that ultimately makes us
+happy between nine and five. It's wheter our work fulfills us.&lt;/p&gt;</summary><category term="books"></category><category term="Outliers"></category><category term="Malcolm Gladwell"></category></entry><entry><title>GUI building with Matlab</title><link href="http://omartrinidad.github.io/2013/04/gui-building-with-matlab.html" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:2013/04/gui-building-with-matlab.html</id><summary type="html">&lt;p&gt;The first lesson I've learned about GUI development is: &lt;em&gt;create a mockup&lt;/em&gt;.&lt;/p&gt;
 &lt;h1&gt;Why avoid GUIDE (GUI development environment)&lt;/h1&gt;
 &lt;p&gt;With GUIDE is possible design UIs graphically, however instead of making it
-easier complicates it.&lt;/p&gt;
+easier complicates it. In order to have a better control in the &lt;/p&gt;
 &lt;h1&gt;Create GUI programatically&lt;/h1&gt;
 &lt;div class="codehilite"&gt;&lt;pre&gt;&lt;span class="kd"&gt;function&lt;/span&gt; &lt;span class="nx"&gt;varargout&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;mygui&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;varargin&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="nx"&gt;Brief&lt;/span&gt; &lt;span class="nx"&gt;description&lt;/span&gt;
