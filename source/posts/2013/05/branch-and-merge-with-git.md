@@ -45,7 +45,9 @@ to have a clean working state when you switch branches.
 
 # Merge
 
-This section explain what is a merge.
+    $ git merge 
+
+The line above will join two (or more) branches of development.
 
 ## Conflicts
 

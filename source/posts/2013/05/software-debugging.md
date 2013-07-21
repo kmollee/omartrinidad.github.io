@@ -10,5 +10,5 @@ I guess this tactic will help me not to leave the courses I'll take.
 
 # What is a bug?
 
-A bug is an error no visible.
+A bug is an error no visible. 
 
