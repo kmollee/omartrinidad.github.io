@@ -153,12 +153,17 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 *****************/
 #banner {
 	margin: 0 auto;
-	padding: 5em 0 0 0;
+	padding: 3em 0 0 0;
     width: 90%;
 }
 
 	/* Banner */
-	#banner h1 {font-size: 3.571em; line-height: 0;}
+	#banner h1 {
+        font-size: 2.5em; 
+        line-height: 0;
+        width: 50%;
+		margin: 2.5em 1em 1em 1em;
+    }
 	#banner h1 a:link, #banner h1 a:visited {
 		color: #B5E853;
 		display: block;
@@ -178,9 +183,9 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	/* Main Nav */
 	#banner nav {
 		font-size: 1.143em;
-		height: 40px;
+		height: 30px;
 		line-height: 30px;
-		margin: 0 auto 2em auto;
+		margin: 1em auto 4em 2.5em;
 		padding: 0;
 		text-align: center;
 		width: 30%;
@@ -213,6 +218,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		color: #fff;
 		text-shadow: none !important;
 	}
+
+    .clearfix {
+        clear: both;
+    }
 
 /*
 	Featured
@@ -257,8 +266,10 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 #extras {
     margin: 0 auto 3em auto; 
     overflow: hidden;
-    width: 33%;
-    float: right;
+    width: 90%;
+    float: left;
+    /*border-style:solid;
+    border-color:#f00;*/
 }
 
 #extras ul {list-style: none; margin: 0;}
@@ -323,8 +334,6 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	overflow: hidden;
 	padding: 20px;
 	text-align: center;
-	width: 33%;
-    float: right;
 }
 
 #about .primary {float: left; width: 165px;}
@@ -335,10 +344,9 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 
 #about .bio {float: right; width: 500px;}
 
-/*
-	Footer
-*****************/
+/* Footer */
 #contentinfo {
+    /*border-style:solid;*/
     padding-bottom: 2em; 
     width:90%;
     background: #46483E; 
