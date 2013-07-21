@@ -45,4 +45,8 @@ easier complicates it. In order to have a better control in the &lt;/p&gt;
 
 &lt;p&gt;In the code above we have create a &lt;em&gt;very&lt;/em&gt; basic window.&lt;/p&gt;
 &lt;h1&gt;Adding controls with &lt;code&gt;uicontrol&lt;/code&gt;&lt;/h1&gt;
-&lt;h1&gt;Adding menues with &lt;code&gt;uimenus&lt;/code&gt;&lt;/h1&gt;</summary><category term="GUI building"></category><category term="Matlab"></category><category term="GUIDE"></category></entry></feed>
+&lt;h1&gt;Adding menues with &lt;code&gt;uimenus&lt;/code&gt;&lt;/h1&gt;</summary><category term="GUI building"></category><category term="Matlab"></category><category term="GUIDE"></category></entry><entry><title>Software Debugging by Udacity</title><link href="http://omartrinidad.github.io/2013/04/software-debugging-by-udacity.html" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:2013/04/software-debugging-by-udacity.html</id><summary type="html">&lt;p&gt;I am taking the Software Debugging course by Udacity. In order to take this
+course seriously I will do a kind of log.&lt;/p&gt;
+&lt;p&gt;I guess this tactic will help me not to leave the courses I'll take. &lt;/p&gt;
+&lt;h1&gt;What is a bug?&lt;/h1&gt;
+&lt;p&gt;A bug is an error no visible.&lt;/p&gt;</summary><category term="MOOC"></category><category term="software debugging"></category><category term="Python"></category><category term="Udacity"></category></entry></feed>
