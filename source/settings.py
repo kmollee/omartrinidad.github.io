@@ -15,6 +15,9 @@ TIMEZONE = 'UTC'
 # like ``/posts/2012/02/`` when generating the output.
 # ARTICLE_PERMALINK_STRUCTURE = '/%Y/%m/'
 
+ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+
 # I like to put everything into the category ``Blog``, which also appears on
 # the main menu. Tags will not appear on the menu.
 DEFAULT_CATEGORY = 'Blog'
@@ -44,7 +47,4 @@ REVERSE_ARCHIVE_ORDER = True
 DISQUS_SITENAME = 'omarswapfile'
 GITHUB_URL = 'http://github.com/omartrinidad/omartrinidad.github.io'
 TWITTER_USERNAME = 'omar_trinidad'
-
-# Avoid warnings
-article_save_as = '{date:%Y}/{date:%m}/{slug}.html'
 
