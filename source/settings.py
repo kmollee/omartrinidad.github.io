@@ -13,7 +13,7 @@ TIMEZONE = 'UTC'
 
 # Pelican will take the ``Date`` metadata and put the articles into folders
 # like ``/posts/2012/02/`` when generating the output.
-ARTICLE_PERMALINK_STRUCTURE = '/%Y/%m/'
+# ARTICLE_PERMALINK_STRUCTURE = '/%Y/%m/'
 
 # I like to put everything into the category ``Blog``, which also appears on
 # the main menu. Tags will not appear on the menu.
