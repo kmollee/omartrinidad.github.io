@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Omar swap file</title><link href="http://omartrinidad.github.io/" rel="alternate"></link><link href="http://omartrinidad.github.io/feeds/Blog.atom.xml" rel="self"></link><id>http://omartrinidad.github.io/</id><updated>2013-07-18T00:00:00+00:00</updated><entry><title>Outliers</title><link href="http://omartrinidad.github.io/2013/07/outliers.html" rel="alternate"></link><updated>2013-07-18T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-07-18:2013/07/outliers.html</id><summary type="html">&lt;h1&gt;My own history&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Omar swap file</title><link href="http://omartrinidad.github.io/" rel="alternate"></link><link href="http://omartrinidad.github.io/feeds/Blog.atom.xml" rel="self"></link><id>http://omartrinidad.github.io/</id><updated>2013-07-18T00:00:00+00:00</updated><entry><title>Outliers</title><link href="http://omartrinidad.github.io/outliers.html" rel="alternate"></link><updated>2013-07-18T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-07-18:outliers.html</id><summary type="html">&lt;h1&gt;My own history&lt;/h1&gt;
 &lt;p&gt;As a kid I liked to play soccer. I was never the best player, but I neither was
 the worst one. More or less each three years I had to be the new guy in the
 school because my family was moving out. I remember in my school a skinny guy
@@ -29,7 +29,7 @@ someone who doesn't turn ten until the end of the year.&lt;/p&gt;
 &lt;p&gt;Those three things -autonomy, complexity, and a connection between effort and
 reward- are, most people agree, the three qualities that work has to have if it
 is to be satisfying. It is not how much money we make that ultimately makes us
-happy between nine and five. It's wheter our work fulfills us.&lt;/p&gt;</summary><category term="books"></category><category term="Outliers"></category><category term="Malcolm Gladwell"></category></entry><entry><title>GUI building with Matlab</title><link href="http://omartrinidad.github.io/2013/04/gui-building-with-matlab.html" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:2013/04/gui-building-with-matlab.html</id><summary type="html">&lt;p&gt;The first lesson I've learned about GUI development is: &lt;em&gt;create a mockup&lt;/em&gt;. The
+happy between nine and five. It's wheter our work fulfills us.&lt;/p&gt;</summary><category term="books"></category><category term="Outliers"></category><category term="Malcolm Gladwell"></category></entry><entry><title>GUI building with Matlab</title><link href="http://omartrinidad.github.io/gui-building-with-matlab.html" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:gui-building-with-matlab.html</id><summary type="html">&lt;p&gt;The first lesson I've learned about GUI development is: &lt;em&gt;create a mockup&lt;/em&gt;. The
 first step in this little tutorial it will be draw our objective.&lt;/p&gt;
 &lt;p&gt;-IMAGEN-&lt;/p&gt;
 &lt;p&gt;Here, we have a simple GUI, with a left panel and an axe.&lt;/p&gt;
@@ -55,7 +55,7 @@ the things I prefer create the GUI programmatically.&lt;/p&gt;
 &lt;h1&gt;Callbacks and functions&lt;/h1&gt;
 &lt;h1&gt;Share data&lt;/h1&gt;
 &lt;p&gt;The most easy way to share data is using &lt;em&gt;nested functions&lt;/em&gt;. With this approach
-we can &lt;/p&gt;</summary><category term="GUI building"></category><category term="Matlab"></category><category term="GUIDE"></category></entry><entry><title>Software Debugging by Udacity</title><link href="http://omartrinidad.github.io/2013/04/software-debugging-by-udacity.html" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:2013/04/software-debugging-by-udacity.html</id><summary type="html">&lt;p&gt;I am taking the Software Debugging course by Udacity. In order to take this
+we can &lt;/p&gt;</summary><category term="GUI building"></category><category term="Matlab"></category><category term="GUIDE"></category></entry><entry><title>Software Debugging by Udacity</title><link href="http://omartrinidad.github.io/software-debugging-by-udacity.html" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:software-debugging-by-udacity.html</id><summary type="html">&lt;p&gt;I am taking the Software Debugging course by Udacity. In order to take this
 course seriously I will do a kind of log.&lt;/p&gt;
 &lt;p&gt;I guess this tactic will help me not to leave the courses I'll take. &lt;/p&gt;
 &lt;h1&gt;What is a bug?&lt;/h1&gt;
