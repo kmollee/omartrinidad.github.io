@@ -40,8 +40,10 @@
 
                             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="../2013/04/gui-building-with-matlab.html">GUI building with Matlab</a></h1> 
-                    <footer class="post-info">
+                    <h1 class="entry-title">
+                        <a href="../2013/04/gui-building-with-matlab.html">GUI building with Matlab</a>
+                    </h1> 
+                    <footer class="post-preview">
         <abbr class="published" title="2013-04-25T00:00:00">
                 Thu 25 April 2013
         </abbr>
@@ -49,11 +51,15 @@
                 <address class="vcard author" align="center">
                 By <a class="url fn" href="../author/omartrinidad.html">omartrinidad</a>
         </address>
-        <p>The first lesson I've learned about GUI development is: <em>create a mockup</em>.</p>
+        <p>The first lesson I've learned about GUI development is: <em>create a mockup</em>. The
+first step in this little tutorial it will be draw our objective.</p>
+<p>-IMAGEN-</p>
+<p>Here, we have a simple GUI, with a left panel and an axe.</p>
 <h1>Why avoid GUIDE (GUI development environment)</h1>
 <p>With GUIDE is possible design UIs graphically, however instead of making it
-easier complicates it. In order to have a better control in the </p>
-<h1>Create GUI programatically</h1>
+easier complicates it. In order to have a better control and understanding of
+the things I prefer create the GUI programmatically.</p>
+<h1>Create GUI programmatically</h1>
 <div class="codehilite"><pre><span class="kd">function</span> <span class="nx">varargout</span> <span class="o">=</span> <span class="nx">mygui</span><span class="p">(</span><span class="nx">varargin</span><span class="p">)</span>
     <span class="o">%</span> <span class="nx">Brief</span> <span class="nx">description</span>
     <span class="nx">sizeScreen</span> <span class="o">=</span> <span class="nx">get</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;ScreenSize&#39;</span><span class="p">)</span>
@@ -67,69 +73,21 @@ easier complicates it. In order to have a better control in the </p>
 
 <p>In the code above we have create a <em>very</em> basic window.</p>
 <h1>Adding controls with <code>uicontrol</code></h1>
-<h1>Adding menues with <code>uimenus</code></h1><p>There are <a href="../2013/04/gui-building-with-matlab.html#disqus_thread">comments</a>.</p>                </article>
+<h1>Adding menues with <code>uimenus</code></h1>
+<h1>Callbacks and functions</h1>
+<h1>Share data</h1>
+<p>The most easy way to share data is using <em>nested functions</em>. With this approach
+we can </p><p>There are <a href="../2013/04/gui-building-with-matlab.html#disqus_thread">comments</a>.</p>                </article>
                             </aside><!-- /#featured -->
-                            <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-                                                
 
-                 
-                        <li><article class="hentry">    
-                <header>
-                    <h1><a href="../2013/07/outliers.html" rel="bookmark"
-                           title="Permalink to Outliers">Outliers</a></h1>
-                </header>
-                
-                <div class="entry-content">
-                <footer class="post-info">
-        <abbr class="published" title="2013-07-18T00:00:00">
-                Thu 18 July 2013
-        </abbr>
+            <!-- MORE ARTICLES or PAGINATION -->
+            <!-- pendiente -->
 
-                <address class="vcard author" align="center">
-                By <a class="url fn" href="../author/omartrinidad.html">omartrinidad</a>
-        </address>
-                        <p>As a kid I liked to play soccer. I was never the best player, but I neither was
-the worst one. I remember in my school a skinny guy who was a disaster with the
-ball. My family go out to Chiapas because my grandfather inherited a house for
-my ...</p>
-                <a class="readmore" href="../2013/07/outliers.html">read more</a>
-                <p>There are <a href="../2013/07/outliers.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
-            </article></li>
+                    
+
                             
 
-                 
-                        <li><article class="hentry">    
-                <header>
-                    <h1><a href="../2013/04/software-debugging-by-udacity.html" rel="bookmark"
-                           title="Permalink to Software Debugging by Udacity">Software Debugging by Udacity</a></h1>
-                </header>
-                
-                <div class="entry-content">
-                <footer class="post-info">
-        <abbr class="published" title="2013-04-25T00:00:00">
-                Thu 25 April 2013
-        </abbr>
-
-                <address class="vcard author" align="center">
-                By <a class="url fn" href="../author/omartrinidad.html">omartrinidad</a>
-        </address>
-                        <p>I am taking the Software Debugging course by Udacity. In order to take this
-course seriously I will do a kind of log.</p>
-<p>I guess this tactic will help me not to leave the courses I'll take. </p>
-<h1>What is a bug?</h1>
-<p>A bug is an error no visible. </p>
-                <a class="readmore" href="../2013/04/software-debugging-by-udacity.html">read more</a>
-                <p>There are <a href="../2013/04/software-debugging-by-udacity.html#disqus_thread">comments</a>.</p>                </div><!-- /.entry-content -->
-            </article></li>
-                            </ol><!-- /#posts-list -->
-                            <p class="paginator">
-        Page 1 / 1
-    </p>
-                        </section><!-- /#content -->
-                    <section id="extras" class="body">
+                            <section id="extras" class="body">
                                 <div class="social">
                         <h2>social</h2>
                         <ul>
@@ -138,6 +96,7 @@ course seriously I will do a kind of log.</p>
                                                     <li><a href="http://twitter.com/omar_trinidad">Twitter</a></li>
                                                     <li><a href="http://facebook.com/pilu.omar">Facebook</a></li>
                                                     <li><a href="http://mx.linkedin.com/in/omartrinidad">LinkedIn</a></li>
+                                                    <li><a href="http://www.goodreads.com/user/show/17567302-omar-trinidad-guti-rrez-m-ndez">Goodreads</a></li>
                                                 </ul>
                 </div><!-- /.social -->
                 </section><!-- /#extras -->
