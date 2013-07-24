@@ -3,11 +3,14 @@ date: 2013-07-18
 category: Blog
 tags: books, Outliers, Malcolm Gladwell  
 
+# My own history
+
 As a kid I liked to play soccer. I was never the best player, but I neither was
-the worst one. I remember in my school a skinny guy who was a disaster with the
-ball. My family go out to Chiapas because my grandfather inherited a house for
-my dad. Several years later I back to Tabasco. My big surprise was that the
-clumsy and stubborn guy was the scorer.
+the worst one. More or less each three years I had to be the new guy, I
+remember in my school a skinny guy who was a disaster with the ball. My family
+go out to Chiapas because my grandfather inherited a house for my dad. Several
+years later I back to Tabasco. My big surprise was that the clumsy and stubborn
+guy was the scorer.
 
 # Chapter one
 
