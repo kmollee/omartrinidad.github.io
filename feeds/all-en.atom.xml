@@ -59,4 +59,29 @@ we can &lt;/p&gt;</summary><category term="GUI building"></category><category te
 course seriously I will do a kind of log.&lt;/p&gt;
 &lt;p&gt;I guess this tactic will help me not to leave the courses I'll take. &lt;/p&gt;
 &lt;h1&gt;What is a bug?&lt;/h1&gt;
-&lt;p&gt;A bug is an error no visible. &lt;/p&gt;</summary><category term="MOOC"></category><category term="software debugging"></category><category term="Python"></category><category term="Udacity"></category></entry></feed>
+&lt;p&gt;A bug is an error no visible. &lt;/p&gt;</summary><category term="MOOC"></category><category term="software debugging"></category><category term="Python"></category><category term="Udacity"></category></entry><entry><title>Vim Notes</title><link href="http://omartrinidad.github.io/posts/2013/Apr/25/vim-notes/" rel="alternate"></link><updated>2013-04-25T00:00:00+00:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:posts/2013/Apr/25/vim-notes/</id><summary type="html">&lt;p&gt;I used Vim since 2011. But only since 2013 I started using Vim in the right way.
+When I write &lt;em&gt;in the right way&lt;/em&gt; I mean I started to think like a real &lt;em&gt;vimer&lt;/em&gt;. In
+this post I want to write a little bit of things I am learning each day:&lt;/p&gt;
+&lt;h1&gt;Changes in my &lt;code&gt;.vimrc&lt;/code&gt;&lt;/h1&gt;
+&lt;h2&gt;How to avoid use keyboard arrows&lt;/h2&gt;
+&lt;h1&gt;Vim Text Objects.&lt;/h1&gt;
+&lt;h1&gt;Vim System Clipboard&lt;/h1&gt;
+&lt;h1&gt;mappings&lt;/h1&gt;
+&lt;h2&gt;&lt;Leader&gt; key&lt;/h2&gt;
+&lt;p&gt;-&amp;gt; I and A
+-&amp;gt; zz, zt, zb
+-&amp;gt; Ctrl N
+-&amp;gt; Ctrl B and Ctrl F
+-&amp;gt; ctags ?
+-&amp;gt; Ctrl E and Ctrl Y
+-&amp;gt; Ctrl A and Ctrl X
+-&amp;gt; vim match
+-&amp;gt; gq} and y}
+-&amp;gt; Vim visual mode
+-&amp;gt; (, ), { and }
+-&amp;gt; ''
+-&amp;gt; c$, c4w. r [normal mode]
+-&amp;gt; ca" or ci" -&amp;gt; ci) or ca)
+-&amp;gt; ya&amp;lt; or ya&amp;gt; or yi&amp;lt; or yi&amp;gt;&lt;/p&gt;
+&lt;p&gt;OpenOffice
+:set tw=0 wrap linebreak&lt;/p&gt;</summary><category term="Vim"></category></entry></feed>
