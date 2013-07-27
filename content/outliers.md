@@ -13,7 +13,10 @@ grandfather inherited a house for my dad. Several years later I back to
 Tabasco. My big surprise was that the clumsy and stubborn guy was the scorer.
 
 Later in the college, I read a essay named `Teach yourself programming in ten
-years`, I was so fortunate to read this material very early in my way.
+years`, I was so fortunate to read this material very early in my way. 
+
+Today, I am not a hacker yet. I am a bad programmer, I feel I've been loosing
+so much time.
 
 # Chapter one
 

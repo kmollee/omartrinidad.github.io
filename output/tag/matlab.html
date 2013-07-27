@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>Omar swap file - Malcolm Gladwell</title>
+        <title>Omar swap file - Matlab</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="http://omartrinidad.github.io/theme/css/main.css" type="text/css" />
                 <link href="http://omartrinidad.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Omar swap file Atom Feed" />
@@ -36,51 +36,43 @@
                             <aside id="featured" class="body">
                 <article>
                     <h1 class="entry-title">
-                        <a href="http://omartrinidad.github.io/outliers.html">Outliers</a>
+                        <a href="http://omartrinidad.github.io/gui-building-with-matlab.html">GUI building with Matlab</a>
                     </h1> 
                     <footer class="post-preview">
-        <abbr class="published" title="2013-07-18T00:00:00">
-                Thu 18 July 2013
+        <abbr class="published" title="2013-04-25T00:00:00">
+                Thu 25 April 2013
         </abbr>
 
                 <address class="vcard author" align="center">
                 By <a class="url fn" href="http://omartrinidad.github.io/author/omartrinidad.html">omartrinidad</a>
         </address>
-        <h1>My own history</h1>
-<p>As a kid I liked to play soccer. I was never the best player, but I neither was
-the worst one. More or less each three years I had to be the new guy in the
-school because my family was moving out. I remember in my school a skinny guy
-who was a disaster with the ball. My family go out to Chiapas because my
-grandfather inherited a house for my dad. Several years later I back to
-Tabasco. My big surprise was that the clumsy and stubborn guy was the scorer.</p>
-<p>Later in the college, I read a essay named <code>Teach yourself programming in ten
-years</code>, I was so fortunate to read this material very early in my way. </p>
-<p>Today, I am not a hacker yet. I am a bad programmer, I feel I've been loosing
-so much time.</p>
-<h1>Chapter one</h1>
-<p>It makes a difference where and when we grew up.</p>
-<p>Biologists often talk about the "ecology" of an organism: the tallest oak in
-the forest is the tallest not just because it grew from the hardiest acorn; it
-is the tallest also because no other trees blocked its sunlight, the soil
-around it was deep and rich, no rabbit chewed through its bark as a sapling,
-and no lumberjack cut it down before it matured. We all know that successful
-people come from hardy seeds. But do we know enough about the sunlight that
-warmed them, the soil in which they put down the roots, and the rabbits and
-lumberjacks they were lucky enough to avoid?</p>
-<h1>Hockey players in Canada</h1>
-<p>In Canada the most of the successful hockey players born
-in: January, February, and March.</p>
-<p>The explanation for this is quite simple. It has nothing to
-do with astrology, nor is there anything magical about the 
-first three months of the year. It's simply that in Canada
-the eligibility cutoff for age-class hockey is January 1. A
-boy who turns ten on January 2, then, could be playing alongside
-someone who doesn't turn ten until the end of the year.</p>
-<h1>The three lessons of Joe Flom</h1>
-<p>Those three things -autonomy, complexity, and a connection between effort and
-reward- are, most people agree, the three qualities that work has to have if it
-is to be satisfying. It is not how much money we make that ultimately makes us
-happy between nine and five. It's wheter our work fulfills us.</p>                </article>
+        <p>The first lesson I've learned about GUI development is: <em>create a mockup</em>. The
+first step in this little tutorial it will be draw our objective.</p>
+<p>-IMAGEN-</p>
+<p>Here, we have a simple GUI, with a left panel and an axe.</p>
+<h1>Why avoid GUIDE (GUI development environment)</h1>
+<p>With GUIDE is possible design UIs graphically, however instead of making it
+easier complicates it. In order to have a better control and understanding of
+the things I prefer create the GUI programmatically.</p>
+<h1>Create GUI programmatically</h1>
+<div class="codehilite"><pre><span class="kd">function</span> <span class="nx">varargout</span> <span class="o">=</span> <span class="nx">mygui</span><span class="p">(</span><span class="nx">varargin</span><span class="p">)</span>
+    <span class="o">%</span> <span class="nx">Brief</span> <span class="nx">description</span>
+    <span class="nx">sizeScreen</span> <span class="o">=</span> <span class="nx">get</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="s1">&#39;ScreenSize&#39;</span><span class="p">)</span>
+    <span class="nx">hmf</span> <span class="o">=</span> <span class="nx">figure</span><span class="p">(</span><span class="s1">&#39;Position&#39;</span><span class="p">,</span> <span class="nx">sizeScreen</span><span class="p">,...</span>
+           <span class="s1">&#39;Name&#39;</span><span class="p">,</span> <span class="s1">&#39;Mammogram GUI&#39;</span><span class="p">,...</span>
+           <span class="s1">&#39;NumberTitle&#39;</span><span class="p">,</span> <span class="s1">&#39;off&#39;</span><span class="p">,...</span>
+           <span class="s1">&#39;MenuBar&#39;</span><span class="p">,</span> <span class="s1">&#39;none&#39;</span><span class="p">);</span>
+<span class="nx">end</span>
+</pre></div>
+
+
+<p>In the code above we have create a <em>very</em> basic window.</p>
+<h1>Adding controls with <code>uicontrol</code></h1>
+<h1>Adding menues with <code>uimenus</code></h1>
+<h1>Callbacks and functions</h1>
+<h1>Share data</h1>
+<p>The most easy way to share data is using <em>nested functions</em>. With this approach
+we can </p>                </article>
                                                                 </aside><!-- /#featured -->
 
             <!-- MORE ARTICLES or PAGINATION -->
