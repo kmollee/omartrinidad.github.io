@@ -2,7 +2,8 @@
 
 # This can also be the absolute path to a theme that you downloaded
 THEME = 'darktheme'
-SITESUBTITLE = 'Dreaming with a different and new Mexico'
+#SITESUBTITLE = 'Dreaming with a different and new Mexico'
+SITESUBTITLE = 'This site is under construction'
 
 # The folder ``images`` should be copied into the folder ``static`` when
 # generating the output.

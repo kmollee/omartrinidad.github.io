@@ -11,6 +11,9 @@ this post I want to write a little bit of things I am learning each day:
 
 ## How to avoid use keyboard arrows
 
+Use the keys `h`, `j`, `k`, and `l` is one of the more esoteric features of
+`Vim`, but also is one of the most powerful.
+
 #Vim Text Objects.
 
 #Vim System Clipboard
