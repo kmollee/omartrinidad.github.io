@@ -4,6 +4,10 @@ category: Blog
 tags: Git, branching, merging 
 status: draft
 
+# Git basics
+
+## `unstage` and `reset`
+
 Branching means you diverge from the main line of development and continue to do
 work.
 

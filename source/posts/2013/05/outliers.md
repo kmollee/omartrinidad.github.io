@@ -12,6 +12,9 @@ who was a disaster with the ball. My family go out to Chiapas because my
 grandfather inherited a house for my dad. Several years later I back to
 Tabasco. My big surprise was that the clumsy and stubborn guy was the scorer.
 
+Later in the college, I read a essay named `Teach yourself programming in ten
+years`, I was so fortunate to read this material very early in my way.
+
 # Chapter one
 
 It makes a difference where and when we grew up.
