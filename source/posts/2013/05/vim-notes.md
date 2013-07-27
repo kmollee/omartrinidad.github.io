@@ -12,7 +12,17 @@ this post I want to write a little bit of things I am learning each day:
 ## How to avoid use keyboard arrows
 
 Use the keys `h`, `j`, `k`, and `l` is one of the more esoteric features of
-`Vim`, but also is one of the most powerful.
+`Vim`, but also is one of the most powerful. In order to avoid use the normal
+arrow keys is possible lock them.
+
+    nnoremap <up> <nop>
+    nnoremap <down> <nop>
+    nnoremap <left> <nop>
+    nnoremap <right> <nop>
+    inoremap <up> <nop>
+    inoremap <down> <nop>
+    inoremap <left> <nop>
+    inoremap <right> <nop>
 
 #Vim Text Objects.
 

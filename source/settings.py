@@ -34,6 +34,7 @@ MENUITEMS = (
 
 SOCIAL = (
         ('Twitter', 'http://twitter.com/omar_trinidad'),
+        ('Github', 'http://github.com/omartrinidad'),
         ('Facebook', 'http://facebook.com/pilu.omar'),
         ('LinkedIn', 'http://mx.linkedin.com/in/omartrinidad'),
         ('Goodreads', 'http://www.goodreads.com/user/show/17567302-omar-trinidad-guti-rrez-m-ndez'),
