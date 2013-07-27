@@ -26,12 +26,12 @@
                 <nav>
                 <ul>
                                     <li><a href="http://omartrinidad.github.io/archives.html">Archives</a></li>
-                                                                                                    <li ><a href="../category/blog.html">Blog</a></li>
+                                                                                                    <li><a href="../category/blog.html">Blog</a></li>
                                 </ul>
                 </nav>
 
                 <h1><a href="../">Omar swap file </a></h1>
-                                <strong>This site is under construction</strong>
+                                    <strong>This site is under construction</strong>
                 
                 <div class="clearfix"></div>
         </header><!-- /#banner -->
@@ -57,7 +57,19 @@ this post I want to write a little bit of things I am learning each day:</p>
 <h1>Changes in my <code>.vimrc</code></h1>
 <h2>How to avoid use keyboard arrows</h2>
 <p>Use the keys <code>h</code>, <code>j</code>, <code>k</code>, and <code>l</code> is one of the more esoteric features of
-<code>Vim</code>, but also is one of the most powerful.</p>
+<code>Vim</code>, but also is one of the most powerful. In order to avoid use the normal
+arrow keys is possible lock them.</p>
+<div class="codehilite"><pre><span class="nx">nnoremap</span> <span class="o">&lt;</span><span class="nb">up</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+<span class="nx">nnoremap</span> <span class="o">&lt;</span><span class="nb">down</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+<span class="nx">nnoremap</span> <span class="o">&lt;</span><span class="nb">left</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+<span class="nx">nnoremap</span> <span class="o">&lt;</span><span class="nb">right</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+<span class="nx">inoremap</span> <span class="o">&lt;</span><span class="nb">up</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+<span class="nx">inoremap</span> <span class="o">&lt;</span><span class="nb">down</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+<span class="nx">inoremap</span> <span class="o">&lt;</span><span class="nb">left</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+<span class="nx">inoremap</span> <span class="o">&lt;</span><span class="nb">right</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="nx">nop</span><span class="o">&gt;</span>
+</pre></div>
+
+
 <h1>Vim Text Objects.</h1>
 <h1>Vim System Clipboard</h1>
 <h1>mappings</h1>
@@ -87,29 +99,16 @@ this post I want to write a little bit of things I am learning each day:</p>
             <!-- MORE ARTICLES or PAGINATION -->
             <!-- pendiente -->
 
-                    <section id="extras" class="body">
-                                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            <li><a href="http://omartrinidad.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate">atom feed</a></li>
-                            
-                                                    <li><a href="http://twitter.com/omar_trinidad">Twitter</a></li>
-                                                    <li><a href="http://facebook.com/pilu.omar">Facebook</a></li>
-                                                    <li><a href="http://mx.linkedin.com/in/omartrinidad">LinkedIn</a></li>
-                                                    <li><a href="http://www.goodreads.com/user/show/17567302-omar-trinidad-guti-rrez-m-ndez">Goodreads</a></li>
-                                                </ul>
-                </div><!-- /.social -->
-                </section><!-- /#extras -->
-
-        <footer id="contentinfo" class="body">
-                <address id="about" class="vcard body">
-                Proudly powered by <a
-                    href="http://getpelican.com/">Pelican</a>, which takes
-                great advantage of <a href="http://python.org">Python</a>.
-                </address><!-- /#about -->
-
-                <p><a href="">DarkGeekTheme</a> was made by omartrinidad with care and geeky love</p>
-        </footer><!-- /#contentinfo -->
+                    
+        <!-- Footer --> 
+        <footer id="footer"> 
+        <p>Powered by <a href="http://getpelican.com/">Pelican</a>, 
+        <a href="http://python.org">Python</a>, and 
+        <a href="http://pages.github.com">Github Pages</a></p>
+        <p><a href="">NerdPowa</a> was made by omartrinidad with care and geeky love</p>
+        <!-- ToDo: Add social icons -->
+        </footer>
+        <!-- End footer --> 
 
 <script type="text/javascript">
     var disqus_shortname = 'omarswapfile';
