@@ -3,6 +3,7 @@
 
 AUTHOR = u'omartrinidad'
 SITENAME = u'Omar swap file'
+SITESUBTITLE = 'This site is under construction'
 SITEURL = 'omartrinidad.github.io'
 
 TIMEZONE = 'Europe/Paris'
@@ -10,16 +11,13 @@ TIMEZONE = 'Europe/Paris'
 DEFAULT_LANG = u'en'
 
 # Blogroll
-LINKS =  (('Pelican', 'http://docs.notmyidea.org/alexis/pelican/'),
-          ('Python.org', 'http://python.org'),
-          ('Jinja2', 'http://jinja.pocoo.org'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+# Social
 
 DEFAULT_PAGINATION = False
 
 # Added after pelican-quickstart
 
 THEME = '/home/omartrinidad/projects/darktheme'
+
+ARTICLE_URL = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
