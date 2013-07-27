@@ -1,7 +1,0 @@
-*.pid
-*.pyc
-*.swp
-pelicanconf.py
-publishconf.py
-Makefile
-output
