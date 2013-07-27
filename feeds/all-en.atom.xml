@@ -66,6 +66,8 @@ When I write &lt;em&gt;in the right way&lt;/em&gt; I mean I started to think lik
 this post I want to write a little bit of things I am learning each day:&lt;/p&gt;
 &lt;h1&gt;Changes in my &lt;code&gt;.vimrc&lt;/code&gt;&lt;/h1&gt;
 &lt;h2&gt;How to avoid use keyboard arrows&lt;/h2&gt;
+&lt;p&gt;Use the keys &lt;code&gt;h&lt;/code&gt;, &lt;code&gt;j&lt;/code&gt;, &lt;code&gt;k&lt;/code&gt;, and &lt;code&gt;l&lt;/code&gt; is one of the more esoteric features of
+&lt;code&gt;Vim&lt;/code&gt;, but also is one of the most powerful.&lt;/p&gt;
 &lt;h1&gt;Vim Text Objects.&lt;/h1&gt;
 &lt;h1&gt;Vim System Clipboard&lt;/h1&gt;
 &lt;h1&gt;mappings&lt;/h1&gt;
