@@ -106,4 +106,9 @@ arrow keys is possible lock them.&lt;/p&gt;
 -&amp;gt; ya&amp;lt; or ya&amp;gt; or yi&amp;lt; or yi&amp;gt;&lt;/p&gt;
 &lt;p&gt;OpenOffice
 :set tw=0 wrap linebreak&lt;/p&gt;
-&lt;h1&gt;f and t commands and ;&lt;/h1&gt;</summary><category term="Vim"></category></entry></feed>
+&lt;h1&gt;f and t commands and ;&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;dt'&lt;/code&gt; -&amp;gt; delete (forward) until
+&lt;code&gt;dT'&lt;/code&gt; -&amp;gt; delete (backward) until&lt;/p&gt;
+&lt;h2&gt;Combinations&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;diw&lt;/code&gt; -&amp;gt; delete inner word
+&lt;code&gt;di'&lt;/code&gt; -&amp;gt; delete everything inside quotes&lt;/p&gt;</summary><category term="Vim"></category></entry></feed>
