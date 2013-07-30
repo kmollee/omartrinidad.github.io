@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Omar swap file</title><link href="http://omartrinidad.github.io/" rel="alternate"></link><link href="http://omartrinidad.github.io/feeds/Blog.atom.xml" rel="self"></link><id>http://omartrinidad.github.io/</id><updated>2013-07-18T00:00:00-05:00</updated><entry><title>Outliers</title><link href="http://omartrinidad.github.io/posts/2013/Jul/18/outliers/" rel="alternate"></link><updated>2013-07-18T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-07-18:posts/2013/Jul/18/outliers/</id><summary type="html">&lt;p&gt;Outliers by Malcolm Gladwell is the last book I read. I think this book
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Omar swap file</title><link href="http://omartrinidad.github.io/" rel="alternate"></link><link href="http://omartrinidad.github.io/feeds/Blog.atom.xml" rel="self"></link><id>http://omartrinidad.github.io/</id><updated>2013-07-18T00:00:00-05:00</updated><entry><title>Outliers</title><link href="http://omartrinidad.github.io/posts/2013/outliers/" rel="alternate"></link><updated>2013-07-18T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-07-18:posts/2013/outliers/</id><summary type="html">&lt;p&gt;Outliers by Malcolm Gladwell is the last book I read. I think this book
 deserves a summary.&lt;/p&gt;
 &lt;h1&gt;Chapter one&lt;/h1&gt;
 &lt;p&gt;It makes a difference where and when we grew up.&lt;/p&gt;
@@ -12,14 +12,13 @@ people come from hardy seeds. But do we know enough about the sunlight that
 warmed them, the soil in which they put down the roots, and the rabbits and
 lumberjacks they were lucky enough to avoid?&lt;/p&gt;
 &lt;h1&gt;Hockey players in Canada&lt;/h1&gt;
-&lt;p&gt;In Canada the most of the successful hockey players born
-in: January, February, and March.&lt;/p&gt;
-&lt;p&gt;The explanation for this is quite simple. It has nothing to
-do with astrology, nor is there anything magical about the 
-first three months of the year. It's simply that in Canada
-the eligibility cutoff for age-class hockey is January 1. A
-boy who turns ten on January 2, then, could be playing alongside
-someone who doesn't turn ten until the end of the year.&lt;/p&gt;
+&lt;p&gt;In Canada the most of the successful hockey players born in: January, February,
+and March.&lt;/p&gt;
+&lt;p&gt;The explanation for this is quite simple. It has nothing to do with astrology,
+nor is there anything magical about the first three months of the year. It's
+simply that in Canada the eligibility cutoff for age-class hockey is January 1.
+A boy who turns ten on January 2, then, could be playing alongside someone who
+doesn't turn ten until the end of the year.&lt;/p&gt;
 &lt;h1&gt;The three lessons of Joe Flom&lt;/h1&gt;
 &lt;p&gt;Those three things -autonomy, complexity, and a connection between effort and
 reward- are, most people agree, the three qualities that work has to have if it
@@ -33,10 +32,9 @@ who was a disaster with the ball. My family go out to Chiapas because my
 grandfather inherited a house for my dad. Several years later I back to
 Tabasco. My big surprise was that the clumsy and stubborn guy was the scorer.&lt;/p&gt;
 &lt;p&gt;Later in the college, I read a essay named &lt;code&gt;Teach yourself programming in ten
-years&lt;/code&gt;, I was so fortunate to read this material very early in my way. With all
-these things I learn that the only way to get something is through hard work.&lt;/p&gt;
+years&lt;/code&gt;, I was so fortunate to read this material very early in my way. &lt;/p&gt;
 &lt;p&gt;Today, I am not a hacker yet. I am a bad programmer, I feel I've been loosing
-so much time.&lt;/p&gt;</summary><category term="books"></category><category term="Outliers"></category><category term="Malcolm Gladwell"></category></entry><entry><title>GUI building with Matlab</title><link href="http://omartrinidad.github.io/posts/2013/Apr/25/gui-building-with-matlab/" rel="alternate"></link><updated>2013-04-25T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:posts/2013/Apr/25/gui-building-with-matlab/</id><summary type="html">&lt;p&gt;The first lesson I've learned about GUI development is: &lt;em&gt;create a mockup&lt;/em&gt;. The
+so much time.&lt;/p&gt;</summary><category term="books"></category><category term="Outliers"></category><category term="Malcolm Gladwell"></category></entry><entry><title>GUI building with Matlab</title><link href="http://omartrinidad.github.io/posts/2013/gui-building-with-matlab/" rel="alternate"></link><updated>2013-04-25T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:posts/2013/gui-building-with-matlab/</id><summary type="html">&lt;p&gt;The first lesson I've learned about GUI development is: &lt;em&gt;create a mockup&lt;/em&gt;. The
 first step in this little tutorial it will be draw our objective.&lt;/p&gt;
 &lt;p&gt;-IMAGEN-&lt;/p&gt;
 &lt;p&gt;Here, we have a simple GUI, with a left panel and an axe.&lt;/p&gt;
@@ -62,11 +60,11 @@ the things I prefer create the GUI programmatically.&lt;/p&gt;
 &lt;h1&gt;Callbacks and functions&lt;/h1&gt;
 &lt;h1&gt;Share data&lt;/h1&gt;
 &lt;p&gt;The most easy way to share data is using &lt;em&gt;nested functions&lt;/em&gt;. With this approach
-we can &lt;/p&gt;</summary><category term="GUI building"></category><category term="Matlab"></category><category term="GUIDE"></category></entry><entry><title>Software Debugging by Udacity</title><link href="http://omartrinidad.github.io/posts/2013/Apr/25/software-debugging-by-udacity/" rel="alternate"></link><updated>2013-04-25T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:posts/2013/Apr/25/software-debugging-by-udacity/</id><summary type="html">&lt;p&gt;I am taking the Software Debugging course by Udacity. In order to take this
+we can &lt;/p&gt;</summary><category term="GUI building"></category><category term="Matlab"></category><category term="GUIDE"></category></entry><entry><title>Software Debugging by Udacity</title><link href="http://omartrinidad.github.io/posts/2013/software-debugging-by-udacity/" rel="alternate"></link><updated>2013-04-25T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:posts/2013/software-debugging-by-udacity/</id><summary type="html">&lt;p&gt;I am taking the Software Debugging course by Udacity. In order to take this
 course seriously I will do a kind of log.&lt;/p&gt;
 &lt;p&gt;I guess this tactic will help me not to leave the courses I'll take. &lt;/p&gt;
 &lt;h1&gt;What is a bug?&lt;/h1&gt;
-&lt;p&gt;A bug is an error no visible. &lt;/p&gt;</summary><category term="MOOC"></category><category term="software debugging"></category><category term="Python"></category><category term="Udacity"></category></entry><entry><title>Vim Notes</title><link href="http://omartrinidad.github.io/posts/2013/Apr/25/vim-notes/" rel="alternate"></link><updated>2013-04-25T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:posts/2013/Apr/25/vim-notes/</id><summary type="html">&lt;p&gt;I used Vim since 2011. But only since 2013 I started using Vim in the right way.
+&lt;p&gt;A bug is an error no visible. &lt;/p&gt;</summary><category term="MOOC"></category><category term="software debugging"></category><category term="Python"></category><category term="Udacity"></category></entry><entry><title>Vim Notes</title><link href="http://omartrinidad.github.io/posts/2013/vim-notes/" rel="alternate"></link><updated>2013-04-25T00:00:00-05:00</updated><author><name>omartrinidad</name></author><id>tag:omartrinidad.github.io,2013-04-25:posts/2013/vim-notes/</id><summary type="html">&lt;p&gt;I used Vim since 2011. But only since 2013 I started using Vim in the right way.
 When I write &lt;em&gt;in the right way&lt;/em&gt; I mean I started to think like a real &lt;em&gt;vimer&lt;/em&gt;. In
 this post I want to write a little bit of things I am learning each day:&lt;/p&gt;
 &lt;h1&gt;Changes in my &lt;code&gt;.vimrc&lt;/code&gt;&lt;/h1&gt;
@@ -105,10 +103,4 @@ arrow keys is possible lock them.&lt;/p&gt;
 -&amp;gt; ca" or ci" -&amp;gt; ci) or ca)
 -&amp;gt; ya&amp;lt; or ya&amp;gt; or yi&amp;lt; or yi&amp;gt;&lt;/p&gt;
 &lt;p&gt;OpenOffice
-:set tw=0 wrap linebreak&lt;/p&gt;
-&lt;h1&gt;f and t commands and ;&lt;/h1&gt;
-&lt;p&gt;&lt;code&gt;dt'&lt;/code&gt; -&amp;gt; delete (forward) until
-&lt;code&gt;dT'&lt;/code&gt; -&amp;gt; delete (backward) until&lt;/p&gt;
-&lt;h2&gt;Combinations&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;diw&lt;/code&gt; -&amp;gt; delete inner word
-&lt;code&gt;di'&lt;/code&gt; -&amp;gt; delete everything inside quotes&lt;/p&gt;</summary><category term="Vim"></category></entry></feed>
+:set tw=0 wrap linebreak&lt;/p&gt;</summary><category term="Vim"></category></entry></feed>

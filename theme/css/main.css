@@ -9,7 +9,7 @@
 @import url("reset.css");
 @import url("pygment.css");
 @import url("typogrify.css");
-@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Molengo);
+@import url(http://fonts.googleapis.com/css?family=Carrois+Gothic+SC|Molengo|PT+Mono);
 
 /***** Global *****/
 /* Body */
@@ -111,12 +111,9 @@ pre{
     color: #000;
 } 
 
-code {
-    background: rgba(0, 0, 0, 0.9);
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    padding: 2px;
-    border-radius: 2px;
-    o-webkit-border-radius: 2px;
+p code {
+    color: #C74451;
+    font-family: 'PT Mono', Courier;
 }
 
 /* Quotes */
