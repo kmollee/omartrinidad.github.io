@@ -51,3 +51,12 @@ arrow keys is possible lock them.
 OpenOffice
 :set tw=0 wrap linebreak
 
+# f and t commands and ;
+
+`dt'` -> delete (forward) until 
+`dT'` -> delete (backward) until
+
+## Combinations
+
+`diw` -> delete inner word 
+`di'` -> delete everything inside quotes
