@@ -3,7 +3,7 @@
 
 AUTHOR = u'omartrinidad'
 SITENAME = u'Omar swap file'
-SITEURL = 'omartrinidad.github.io'
+SITEURL = 'http://omartrinidad.github.io'
 SITESUBTITLE = 'Website under construction'
 STATIC_PATHS = ['images', ]
 
