@@ -3,8 +3,9 @@
 
 AUTHOR = u'omartrinidad'
 SITENAME = u'Omar swap file'
-SITEURL = 'http://omartrinidad.github.io'
 SITESUBTITLE = 'Website under construction'
+
+SITEURL = 'http://omartrinidad.github.io'
 STATIC_PATHS = ['images', ]
 
 TIMEZONE = 'America/Mexico_City'
@@ -30,3 +31,5 @@ SOCIAL = (
 
 ARTICLE_URL = 'posts/{date:%Y}/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{slug}/index.html'
+
+
