@@ -174,7 +174,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 	#banner h1 { /* title of the webpage*/
         font-size: 1.5em; 
         line-height: 0;
-        width: 50%;
+        width: 40%;
 		margin: 2em 0.5em 0.5em 0em;
     }
 	#banner h1 a:link, #banner h1 a:visited {
@@ -203,7 +203,7 @@ img.left, figure.left {float: left; margin: 0 2em 2em 0;}
 		margin: 1em 2.5em 5em 2.5em;
 		padding: 0;
 		text-align: center;
-		width: 30%;
+		width: 50%;
         float: right; 
 	}
 	
