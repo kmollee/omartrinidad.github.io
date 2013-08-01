@@ -18,7 +18,8 @@ DEFAULT_PAGINATION = False
 THEME = '/home/omartrinidad/projects/nerdpowa'
 
 # Archives in the main menu.
-MENUITEMS = (('Archives', '{0}/archives.html'.format(SITEURL)),)
+MENUITEMS = (('Archives', '{0}/archives.html'.format(SITEURL)),
+             ('About', '{0}/about.html'.format(SITEURL)),)
 
 """
 SOCIAL = (
