@@ -60,3 +60,16 @@ OpenOffice
 
 `diw` -> delete inner word 
 `di'` -> delete everything inside quotes
+
+#tl;dr -> too long; didn't read
+
+# Search: `?`, `/`, `*` and `#`
+
+`<mammo>` it will match with `mammo` but not with `mammogram`.
+
+# Replacing
+
+With `:%s/hate/love/g` is possible replace hate with love. What happens if you
+are looking for `/`.
+
+# Motion commands: `{}`, `()`
